@@ -2,13 +2,11 @@
 
 这是一个git学习仓库，用来学习git的常用命令，git最核心的功能就是分支管理、版本切换、多人合作以及大文件仓库管理。
 
-# gitignore
+## gitignore
 
 用来忽略某些临时文件（比如编译产生的临时文件）
 
-
-
-# gitattribute
+## gitattribute
 
 Gitattributes 用于设置文件的属性。和 gitignore 类似，gitattributes 是在目录内创建 `.gitattributes` 文本文件，用于设置文件的属性，一般用于设置行尾转换、字符编码等等一系列属性。正常情况下，Git 默认的设置都能够使我们达到要求，也能够自动识别文件，不需要单独使用 gitattributes 进行指定。但是一些特殊情况下还是有必要的。在这里，我们仅对 gitattributes 做一个简短的介绍，想要深入了解的读者可以自行查阅相关资料进行学习，读者也可以跳过本部分。
 
